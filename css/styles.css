@@ -1,0 +1,74 @@
+*
+{
+  font-family: sans-serif;
+  margin: 20px;
+}
+body
+{
+  background-color: rgb(31,78,121);
+}
+#firstName
+{
+  background-color: rgb(189, 198, 201);
+  color: rgb(31,78,121);
+  font-size: 55px;
+}
+#lastName
+{
+  font-size: 75px;
+  color: rgb(255, 216, 89);
+}
+div.name
+{
+  display: block;
+  top: 35%;
+  left: 35%;
+  position: absolute;
+}
+h2
+{
+  display: flex;
+  padding: 10px;
+  background-color: rgb(189, 198, 201);
+  width: 200px;
+  color: rgb(31,78,121);
+}
+div.menu-ctn
+{
+  top: 50%;
+  left: 52%;
+  position: absolute;
+  transition: 0.1s;
+  width: 25%;
+}
+div.balloon
+{
+  height: 100%;
+}
+#balloonFloat
+{
+  height: 900px;
+  width: 700px;
+  z-index: 1;
+  bottom: 200px;
+}
+#dropdown
+{
+  display: none;
+  list-style-type: none;
+}
+#dropdown.active
+{
+  top: -20;
+  left: -80;
+  position: absolute;
+  z-index: 1;
+  transition: 2.0s ease;
+  display: flex;
+  margin: 5px;
+}
+#dropdown.active li:hover
+{
+  transition: 0.4s;
+  opacity: 0.2;
+}
